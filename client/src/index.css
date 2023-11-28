@@ -5,3 +5,6 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
+:root{
+  --btn-fontsize:17px;
+}

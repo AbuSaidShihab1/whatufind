@@ -3,6 +3,8 @@ import "../../styles/home/Profilepost.css";
 import { FaRegStar } from "react-icons/fa";
 import { FaStar } from "react-icons/fa6";
 import Storypost from "./Storypost";
+import Postfield from "./Postfield";
+import Userpost from "./Userpost";
 const Profilepost = () => {
   return (
     <div className="post-section">
@@ -56,6 +58,10 @@ const Profilepost = () => {
       {/* -------------------post-section2---------------- */}
       <div className="post-sectionbox2 postbox">
         <Storypost />
+        {/* -----------------post filed--------------- */}
+        <Postfield />
+        {/* -----------------All post--------------- */}
+        <Userpost />
       </div>
       {/* -------------------post-section3---------------- */}
       <div className="post-sectionbox3 postbox">

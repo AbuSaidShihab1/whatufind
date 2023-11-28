@@ -8,7 +8,7 @@
 }
 .post-sectionbox1{
     width: 25%;
-    height: auto;
+    height: 100%;
     background-color: white;
     padding: 15px;
     border-radius: 10px;
@@ -16,12 +16,12 @@
 }
 .post-sectionbox2{
     width: 50%;
-    height: 300px;
+    height: auto;
     background-color: white;
 }
 .post-sectionbox3{
     width: 25%;
-    height: auto;
+    height: 100%;
     background-color: white;
     border-radius: 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -86,6 +86,7 @@
 }
 .recommand-tag{
     padding: 10px;
+    padding-bottom: 15px;
     width: 100%;
 }
 .recommand-tag ul{
