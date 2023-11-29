@@ -1,0 +1,33 @@
+.dashglance-boxmain {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.dashglance-boxmain h1 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.dashglance-box {
+  width: 100%;
+  border-bottom: 1px solid var(--paracolor);
+}
+.dashglance-box h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.dashglance-content {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.dashglance-content img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
