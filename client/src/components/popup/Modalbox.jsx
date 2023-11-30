@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
-import "../../styles/home/Homesubheader.css";
+import React, { useEffect, useState } from "react";
 import "../../styles/dashboard/Modal.css";
 import { AiOutlineClose } from "react-icons/ai";
 import { AiOutlinePicture } from "react-icons/ai";
@@ -9,84 +7,36 @@ import { IoPricetag } from "react-icons/io5";
 import { IoIosColorPalette } from "react-icons/io";
 import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
-const Homesubheader = () => {
-  const [linkindex, setlinkindex] = useState();
+const Modalbox = ({ getindex }) => {
   const [activetab, setactivetab] = useState(1);
   const [activemodal, setactivemodal] = useState(false);
+  const [getfilterindex, setfilter] = useState(getindex);
   //   toggletab function
   function toggletab(index) {
     setactivetab(index);
   }
+  console.log(getindex);
   const onOpenModal = () => {
     setactivemodal(true);
   };
+  useEffect(() => {
+    console.log(getfilterindex, "gg");
+  }, [getfilterindex]);
+  function onanything() {
+    if (getindex === 1) {
+      setactivemodal(true);
+      setactivetab(4);
+    } else {
+      setactivemodal(false);
+    }
+  }
+
   const onCloseModal = () => {
     setactivemodal(false);
   };
-  function setindex(index) {
-    setactivetab(index);
-    setlinkindex(index);
-    setactivemodal(true);
-  }
   return (
     <>
-      <div className="homesub-header">
-        <ul>
-          <li
-            onClick={() => {
-              setindex(2);
-            }}
-          >
-            <NavLink to="">Services</NavLink>
-          </li>
-          <li
-            onClick={() => {
-              setindex(3);
-            }}
-          >
-            <NavLink to="">Jobs</NavLink>
-          </li>
-          <li
-            onClick={() => {
-              setindex(4);
-            }}
-          >
-            <NavLink to="">Consultant</NavLink>
-          </li>
-          <li
-            onClick={() => {
-              setindex(5);
-            }}
-          >
-            <NavLink to="">Training</NavLink>
-          </li>
-          <li
-            onClick={() => {
-              setindex(6);
-            }}
-          >
-            <NavLink to="">Products</NavLink>
-          </li>
-          <li
-            onClick={() => {
-              setindex();
-            }}
-          >
-            <NavLink to="">People</NavLink>
-          </li>
-          <li
-            onClick={() => {
-              setindex(7);
-            }}
-          >
-            <NavLink to="">Q&A</NavLink>
-          </li>
-        </ul>
-        <div className="sub-btn">
-          <button>Earn Money</button>
-        </div>
-      </div>
-      {/* --------------------modalbox----------------------- */}
+      <button onClick={onOpenModal}>Open modal</button>
       <div className="modal-main">
         <Modal
           open={activemodal}
@@ -492,4 +442,4 @@ const Homesubheader = () => {
   );
 };
 
-export default Homesubheader;
+export default Modalbox;

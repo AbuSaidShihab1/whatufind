@@ -1,0 +1,96 @@
+.userachieve-main {
+  padding-top: 30px;
+  margin-top: 10px;
+}
+.userachieve-mainbox {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-top: 10px;
+  padding: 15px;
+  display: none;
+}
+.userachieve-box {
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+  padding: 15px 10px;
+  border-bottom: 1px solid var(--paracolor);
+}
+.userachieve-box img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.userreview-text h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.reviewgiven-country {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.reviewgiven-country img {
+  width: 30px;
+  height: 20px;
+  border-radius: 5px;
+}
+.review-starcount {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+.reviewstar {
+  display: flex;
+  gap: 10px;
+  border-right: 2px solid var(--paracolor);
+  padding-right: 10px;
+}
+.reviewstar svg {
+  font-size: 25px;
+}
+.review-starcount h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.userreview-text p {
+  font-size: 17px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+.parchased-infobox {
+  display: flex;
+  gap: 5px;
+  justify-content: start;
+  align-items: center;
+}
+.parchased-infobox a {
+  color: var(--paracolor);
+  font-size: 17px;
+}
+.addreview {
+  padding: 15px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addreview button {
+  padding: 15px 25px;
+  font-size: 17px;
+  border-radius: 25px;
+  border: 1px solid var(--paracolor);
+  background: none;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+  color: black;
+}
+/* ------------activefilter--------------------------- */
+.activefilter {
+  display: block;
+}

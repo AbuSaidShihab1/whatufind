@@ -1,0 +1,148 @@
+/* .modal-main {
+  padding: 50px;
+} */
+.customModal {
+  border-radius: 10px;
+}
+.modal-box {
+  width: auto;
+  height: auto;
+  background-color: white;
+}
+.modal-text {
+  padding: 10px;
+  border-bottom: 1px solid var(--paracolor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-text h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.modal-text button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.modal-text button svg {
+  font-size: 25px;
+}
+.modalbox-filter {
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid var(--paracolor);
+}
+.modalbox-propic img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.modalbox-filterbtn h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.modalbox-filterbtn ul {
+  display: flex;
+  gap: 20px;
+}
+.modalbox-filterbtn ul li {
+  list-style: none;
+}
+.modalbox-filterbtn ul li button {
+  padding: 10px 15px;
+  border: none;
+  background-color: white;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  cursor: pointer;
+  font-size: var(--btn-fontsize);
+}
+/* ------------------------------modalcontent-box------------------- */
+.activefilter {
+  display: block;
+}
+.modalcontent-box {
+  width: 100%;
+  display: none;
+}
+.postinp-field {
+  width: 100%;
+  padding: 10px;
+  height: 300px;
+  border-bottom: 1px solid var(--paracolor);
+}
+.postinp-field textarea {
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+}
+.postadd-method {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-item {
+  display: flex;
+  gap: 20px;
+}
+.post-item button {
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+.post-item button svg {
+  font-size: 30px;
+}
+.upload-lettercount p {
+  font-size: 18px;
+  color: var(--paracolor);
+}
+.modalpost-button {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalpost-button button {
+  width: 100%;
+  height: 55px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  background-color: #1abc9c;
+  color: white;
+  border-radius: 10px;
+}
+/* ----------------------------------service modal box------------------ */
+.postinp-allfield {
+  padding: 10px;
+  border-bottom: 1px solid var(--paracolor);
+}
+.postinp-allfield input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid var(--paracolor);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.postinp-allfield textarea {
+  width: 100%;
+  height: 200px;
+  border: 1px solid var(--paracolor);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}

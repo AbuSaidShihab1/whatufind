@@ -1,110 +1,120 @@
-.storypost-main{
-    width: 100%;
-    height: auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding: 15px;
-    overflow-x: auto;
+.storypost-main {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 15px;
+  overflow-x: auto;
 }
-.storypost-mainboxes{
-   display: flex;
-   gap: 30px;
-   overflow-x: auto;
-
+.mySwiper {
+  width: 100%;
+  display: flex;
+  gap: 20px;
 }
-.story-postbox{
-    width: 300px;
-    cursor: pointer;
-    height: auto;    background-color: white;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    border-radius: 10px;
+.swipperbox {
+  width: 300px;
 }
-.storypost-text{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: aliceblue;
-    padding: 10px;
-    position: relative;
+.storypost-mainboxes {
+  display: flex;
+  gap: 30px;
+  overflow-x: auto;
 }
-.storypost-text p{
-    text-align: center;
-    font-size: 20px;
+.story-postbox {
+  width: 100%;
+  cursor: pointer;
+  height: auto;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px;
+  margin-right: 20px;
 }
-.storypost-btn{
-    width: 60px;
-    height: 60px;
-    background-color: white;
-    position: absolute;
-    left: 40%;
-    bottom: -40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    padding: 5px;
+.storypost-text {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 10px;
+  position: relative;
 }
-.storybtn-box{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: var(--maincolor);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.storypost-text p {
+  text-align: center;
+  font-size: 20px;
 }
-.story-picture{
-      width: 100%;
-    height: 350px;
+.storypost-btn {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  position: absolute;
+  left: 40%;
+  bottom: -40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 5px;
 }
-.story-picture img{
-    width: 100%;
-    height: 100%;
+.storybtn-box {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--maincolor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.story-picture {
+  width: 100%;
+  height: 350px;
+}
+.story-picture img {
+  width: 100%;
+  height: 100%;
 }
 /* ---------------------people-story----------------------- */
-.people-story{
-    width: 300px;
-    height: auto;
-    overflow: hidden;
-    cursor: pointer;
-    background-color: white;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    border-radius: 10px;
+.people-story {
+  width: 100%;
+  margin-right: 20px;
+  height: auto;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px;
 }
-.people-info{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: start;
-    padding: 10px;
-    align-items: center;
-    background-color: aliceblue;
-    gap: 15px;
+.people-info {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: start;
+  padding: 10px;
+  align-items: center;
+  background-color: aliceblue;
+  gap: 15px;
 }
-.people-info h2{
-    font-size: 20px;
-    font-weight: 700;
+.people-info h2 {
+  font-size: 20px;
+  font-weight: 700;
 }
-.people-picture{
-    width: 50px;
-    height: 50px;
-    background-color: var(--maincolor);
-    padding: 3px;
-    border-radius: 50%;
+.people-picture {
+  width: 50px;
+  height: 50px;
+  background-color: var(--maincolor);
+  padding: 3px;
+  border-radius: 50%;
 }
-.people-picture img{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
+.people-picture img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
-.people-postimg{
-    width: 100%;
-    height: 350px;
+.people-postimg {
+  width: 100%;
+  height: 350px;
 }
-.people-postimg img{
-    width: 100%;
-    height: 100%;
+.people-postimg img {
+  width: 100%;
+  height: 100%;
 }
