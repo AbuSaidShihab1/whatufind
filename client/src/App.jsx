@@ -5,6 +5,8 @@ import Searchjoin from "./components/search/Searchjoin";
 import Signin from "./components/search/Signin";
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
+import Notificationpage from "./pages/Notificationpage";
+import Message from "./pages/Message";
 const App = () => {
   return (
     <Router>
@@ -14,6 +16,8 @@ const App = () => {
         <Route exact path="/signin" element={<Signin />} />
         <Route exact path="/home" element={<Home />} />
         <Route exact path="/dashboard" element={<Dashboard />} />
+        <Route exact path="/notification" element={<Notificationpage />} />
+        <Route exact path="/message" element={<Message />} />
       </Routes>
     </Router>
   );

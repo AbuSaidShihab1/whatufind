@@ -27,44 +27,44 @@ const Homeheader = () => {
       </div>
       <nav>
         <div className="link-icon">
-          <Link>
+          <NavLink to="/home">
             <i>
               <GoHome />
             </i>
             <p>Home</p>
-          </Link>
+          </NavLink>
         </div>
-        <div className="link-icon">
-          <Link>
+        {/* <div className="link-icon">
+          <NavLink>
             <i>
               <FaRegStar />
             </i>
             <p>Connection</p>
-          </Link>
-        </div>
+          </NavLink>
+        </div> */}
         <div className="link-icon">
-          <Link>
+          <NavLink>
             <i>
               <CgNotes />
             </i>
             <p>History</p>
-          </Link>
+          </NavLink>
         </div>
         <div className="link-icon">
-          <Link>
+          <NavLink to="/message">
             <i>
               <AiOutlineMessage />
             </i>
             <p>Message</p>
-          </Link>
+          </NavLink>
         </div>
         <div className="link-icon">
-          <Link>
+          <NavLink to="/notification">
             <i>
               <IoNotificationsOutline />
             </i>
             <p>Notification</p>
-          </Link>
+          </NavLink>
         </div>
         <div className="home-profilepic">
           <img

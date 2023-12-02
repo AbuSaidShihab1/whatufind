@@ -1,109 +1,111 @@
-.post-section{
-    width: 100%;
-    height: auto;
-    padding: 30px 50px;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+.post-section {
+  width: 100%;
+  height: auto;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
-.post-sectionbox1{
-    width: 25%;
-    height: 100%;
-    background-color: white;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+.post-sectionbox1 {
+  width: 25%;
+  height: 100%;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.post-sectionbox2{
-    width: 50%;
-    height: auto;
-    background-color: white;
+.post-sectionbox2 {
+  width: 50%;
+  height: auto;
+  background-color: white;
 }
-.post-sectionbox3{
-    width: 25%;
-    height: 100%;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+.post-sectionbox3 {
+  width: 25%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 /* --------------------postbox1------------------- */
-.post-sectionbox1 h1{
-    font-size: 20px;
-    margin-bottom: 15px;
-    font-weight: 600;
+.post-sectionbox1 h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
 }
-.completed-level{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 20px;
+.completed-level {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
 }
-.completed-text{
-    width: 25%;
+.completed-text {
+  width: 25%;
 }
-.complete-parcent{
-    width: 65%;
-    height: 22px;
-    background-color: aliceblue;
-    border-radius: 5px;
+.complete-parcent {
+  width: 65%;
+  height: 22px;
+  background-color: aliceblue;
+  border-radius: 5px;
 }
-.sub-completeparcent{
-    width: 75%;
-    height: 100%;
-    background-color: #27ae60;
-    border-radius: 5px;
-    position: relative;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding: 7px;
+.sub-completeparcent {
+  width: 75%;
+  height: 100%;
+  background-color: #27ae60;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 7px;
 }
-.sub-completeparcent p{
-    color: black;
-    font-size: 15px;
+.sub-completeparcent p {
+  color: black;
+  font-size: 15px;
 }
-.complete-star{
-    width: 65%;
+.complete-star {
+  width: 65%;
 }
-.sub-completestar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.sub-completestar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.sub-completestar svg{
-    font-size: 20px;
+.sub-completestar svg {
+  font-size: 20px;
 }
 /* ----------------------post-section2------------------------ */
-.post-sectiontext{
-    width: 100%;
-    padding: 10px;
-     border-bottom: 1px solid #bdc3c7;
+.post-sectiontext {
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #bdc3c7;
 }
-.post-sectiontext h1{
-    font-size: 20px;
-    font-weight: 600;
+.post-sectiontext h1 {
+  font-size: 20px;
+  font-weight: 600;
 }
-.recommand-tag{
-    padding: 10px;
-    padding-bottom: 15px;
-    width: 100%;
+.recommand-tag {
+  padding: 10px;
+  padding-bottom: 15px;
+  width: 100%;
 }
-.recommand-tag ul{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    width: 100%;
-    flex-wrap: wrap;
+.recommand-tag ul {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
 }
-.recommand-tag ul li{
-    list-style: none;
-} 
-.recommand-tag ul li{
-    padding: 10px 15px;
-    background-color: whitesmoke;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    text-decoration: none;
-    color: black;
+.recommand-tag ul li {
+  list-style: none;
+}
+.recommand-tag ul li {
+  padding: 10px 15px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
 }
