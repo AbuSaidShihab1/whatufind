@@ -43,10 +43,29 @@
 .usercontent-data {
   width: 100%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 0px;
+  border-bottom: 1px solid var(--paracolor);
+}
+.infisub-data {
+  display: flex;
   justify-content: start;
   gap: 15px;
-  border-bottom: 1px solid var(--paracolor);
-  padding: 15px 0px;
+}
+.edit-iconbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edit-iconbox button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.edit-iconbox button svg {
+  font-size: 30px;
 }
 .usercontent-data img {
   width: 50px;
@@ -84,8 +103,8 @@
 /* -----------------------skillcontent-box--------------- */
 .skillcontent-box {
   width: 100%;
-  border-bottom: 1px solid var(--paracolor);
   padding: 10px 0px;
+  border-bottom: 1px solid var(--paracolor);
 }
 .skillcontent-box h2 {
   font-size: 18px;
@@ -99,6 +118,13 @@
   align-items: center;
   gap: 15px;
   margin-bottom: 10px;
+}
+.skill-contentsubox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
 }
 .skill-contentinfo img {
   width: 40px;
@@ -130,11 +156,18 @@
 }
 .experiance-contentbox {
   width: 100%;
-  padding: 15px;
-  border-bottom: 1px solid var(--paracolor);
   display: flex;
   justify-content: start;
   gap: 15px;
+}
+.experiancecount-bigbox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  border-bottom: 1px solid var(--paracolor);
+  padding: 15px 0px;
 }
 .experiance-contentbox img {
   width: 50px;
@@ -150,6 +183,19 @@
   font-size: 18px;
   line-height: 25px;
   margin-bottom: 5px;
+}
+.skillsub-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skillsub-text button {
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+.skillsub-text button svg {
+  font-size: 25px;
 }
 /* -------------------------about-textinfo----------------- */
 .about-textinfo {

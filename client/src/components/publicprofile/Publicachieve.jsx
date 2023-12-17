@@ -4,7 +4,7 @@ import bangladeshimg from "../../assets/bangladesh.jpg";
 import { FaRegStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FaStar } from "react-icons/fa6";
-const Userachieve = () => {
+const Publicachieve = () => {
   const [activetab, setactivetab] = useState(1);
   //   toggletab function
   function toggletab(index) {
@@ -180,7 +180,7 @@ const Userachieve = () => {
         <div className="userachieve-box">
           <div className="userarchieve-reviewpic">
             <img
-              src="https://images.pexels.com/photos/3782147/pexels-photo-3782147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/3782214/pexels-photo-3782214.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt=""
             />
           </div>
@@ -215,7 +215,7 @@ const Userachieve = () => {
         <div className="userachieve-box">
           <div className="userarchieve-reviewpic">
             <img
-              src="https://images.pexels.com/photos/1036627/pexels-photo-1036627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt=""
             />
           </div>
@@ -259,4 +259,4 @@ const Userachieve = () => {
   );
 };
 
-export default Userachieve;
+export default Publicachieve;

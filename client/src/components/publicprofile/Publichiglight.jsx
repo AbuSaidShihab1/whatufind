@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { FaLinkedin } from "react-icons/fa6";
 import { SiUpwork } from "react-icons/si";
 import { TbBrandFiverr } from "react-icons/tb";
-const Dashhighlight = () => {
+const Publichighlight = () => {
   return (
     <>
       <div className="dashhighlightbox">
@@ -87,4 +87,4 @@ const Dashhighlight = () => {
   );
 };
 
-export default Dashhighlight;
+export default Publichighlight;

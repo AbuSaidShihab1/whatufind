@@ -1,129 +1,134 @@
-.userpost-main{
+.userpost-main {
   width: 100%;
   margin-top: 20px;
   height: auto;
 }
-.userpost-filter{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 30px;
+.userpost-filter {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
 }
-.userpost-filter h3{
-    border-right: 1px solid black;
-    padding-right: 10px;
+.userpost-filter h3 {
+  border-right: 1px solid black;
+  padding-right: 10px;
 }
-.userpost-filter ul{
-    display: flex;
-    gap: 20px;
+.userpost-filter ul {
+  display: flex;
+  gap: 20px;
 }
-.userpost-filter ul li{
-    list-style: none;
+.userpost-filter ul li {
+  list-style: none;
 }
-.userpost-filter ul li button{
-    background: none;
-    border: none;
-    font-size: var(--btn-fontsize);
-    cursor: pointer;
-    font-weight: 500;
+.userpost-filter ul li button {
+  background: none;
+  border: none;
+  font-size: var(--btn-fontsize);
+  cursor: pointer;
+  font-weight: 500;
 }
 /* -------------userpostbox--------------------- */
-.userpost-show{
-    margin-top: 20px;
+.userpost-show {
+  margin-top: 20px;
 }
-.userpostbox{
-    width: 100%;
-    height: auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    margin-bottom: 20px;
+.userpostbox {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 20px;
 }
-.userpostboxtop{
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.userpostboxtop {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.userprofile-info{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
+.userprofile-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
-.userprofile-info img{
-    width: 50px;
-    height: 50px;
-   border-radius: 50px;
+.userprofile-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
 }
-.user-postmethod{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
+.user-postmethod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
-.user-postmethod i{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.user-postmethod i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.user-postmethod i svg{
-    font-size: 25px;
+.user-postmethod i svg {
+  font-size: 25px;
 }
 /* --------------userpostmiddle------------------- */
-.userposttext{
-    padding: 10px;
-    width: 100%;
+.userposttext {
+  padding: 10px;
+  width: 100%;
 }
-.userposttext p{
-    font-size: 17px;
-    line-height: 25px;
+.userposttext p {
+  font-size: 17px;
+  line-height: 25px;
+  color: #65676b;
 }
-.userpostpic{
-    width: 100%;
-    height: 350px;
+.userpostpic {
+  width: 100%;
+  height: 450px;
 }
-.userpostpic img{
-    width: 100%;
-    height: 100%;
+.userpostpic img {
+  width: 100%;
+  height: 100%;
 }
 /* --------------------userpostboxbottom------------- */
-.userpostboxbottom{
-    padding: 10px;
+.userpostboxbottom {
+  padding: 10px;
 }
-.userpost-count{
-    padding: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid black;
+.userpost-count {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #65676b;
 }
-.userpost-commentcount{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+.userpost-commentcount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
-.userpost-validoption{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+.userpost-validoption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
-.userpost-optionbox{
-    text-align: center;
-    cursor: pointer;
+.userpost-optionbox {
+  text-align: center;
+  cursor: pointer;
 }
-.userpost-optionbox i{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5px;
+.userpost-count p {
+  color: #65676b;
 }
-.userpost-optionbox i svg{
-    font-size: 25px;
+.userpost-optionbox i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.userpost-optionbox i svg {
+  font-size: 25px;
+  color: #65676b;
 }

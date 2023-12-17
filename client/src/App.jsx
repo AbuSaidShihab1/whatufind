@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import Notificationpage from "./pages/Notificationpage";
 import Message from "./pages/Message";
+import Profile from "./pages/Profile";
 const App = () => {
   return (
     <Router>
@@ -18,6 +19,7 @@ const App = () => {
         <Route exact path="/dashboard" element={<Dashboard />} />
         <Route exact path="/notification" element={<Notificationpage />} />
         <Route exact path="/message" element={<Message />} />
+        <Route exact path="/public-profile" element={<Profile />} />
       </Routes>
     </Router>
   );

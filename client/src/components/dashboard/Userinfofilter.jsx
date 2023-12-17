@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import "../../styles/dashboard/Userinfofilter.css";
 import auditorimg from "../../assets/auditor.png";
 import { IoMdArrowRoundForward } from "react-icons/io";
+import { MdOutlineModeEditOutline } from "react-icons/md";
 import Userachieve from "./Userachieve";
+import { AiOutlinePlus } from "react-icons/ai";
 const Userinfofilter = () => {
   const [activetab, setactivetab] = useState(1);
   //   toggletab function
@@ -81,44 +83,78 @@ const Userinfofilter = () => {
                 : "userinfo-contentbox"
             }
           >
-            <h1>Education</h1>
+            <div className="skillsub-text">
+              <h1>Education</h1>
+              <button>
+                <AiOutlinePlus />
+              </button>
+            </div>
+
             <div className="usercontent-data">
-              <img
-                src="https://i.pinimg.com/474x/15/3a/d9/153ad9ab7acca6191d316d73aaff57cc.jpg"
-                alt=""
-              />
-              <div className="usercontent-datatext">
-                <h2>Bangladesh University of Engineering and Technology</h2>
-                <h3>
-                  Bachelor of Science, Electric and Electronic Engineering
-                </h3>
-                <p>2019-2023</p>
+              <div className="infisub-data">
+                <div className="usercontent-image">
+                  <img
+                    src="https://i.pinimg.com/474x/15/3a/d9/153ad9ab7acca6191d316d73aaff57cc.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="usercontent-datatext">
+                  <h2>Bangladesh University of Engineering and Technology</h2>
+                  <h3>
+                    Bachelor of Science, Electric and Electronic Engineering
+                  </h3>
+                  <p>2019-2023</p>
+                </div>
+              </div>
+              <div className="edit-iconbox">
+                <button>
+                  <MdOutlineModeEditOutline />
+                </button>
+              </div>
+            </div>
+
+            <div className="usercontent-data">
+              <div className="infisub-data">
+                <div className="usercontent-image">
+                  <img
+                    src="https://i.pinimg.com/474x/15/3a/d9/153ad9ab7acca6191d316d73aaff57cc.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="usercontent-datatext">
+                  <h2>Bangladesh University of Engineering and Technology</h2>
+                  <h3>
+                    Bachelor of Science, Electric and Electronic Engineering
+                  </h3>
+                  <p>2019-2023</p>
+                </div>
+              </div>
+              <div className="edit-iconbox">
+                <button>
+                  <MdOutlineModeEditOutline />
+                </button>
               </div>
             </div>
             <div className="usercontent-data">
-              <img
-                src="https://i.pinimg.com/474x/15/3a/d9/153ad9ab7acca6191d316d73aaff57cc.jpg"
-                alt=""
-              />
-              <div className="usercontent-datatext">
-                <h2>Bangladesh University of Engineering and Technology</h2>
-                <h3>
-                  Bachelor of Science, Electric and Electronic Engineering
-                </h3>
-                <p>2019-2023</p>
+              <div className="infisub-data">
+                <div className="usercontent-image">
+                  <img
+                    src="https://i.pinimg.com/474x/15/3a/d9/153ad9ab7acca6191d316d73aaff57cc.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="usercontent-datatext">
+                  <h2>Bangladesh University of Engineering and Technology</h2>
+                  <h3>
+                    Bachelor of Science, Electric and Electronic Engineering
+                  </h3>
+                  <p>2019-2023</p>
+                </div>
               </div>
-            </div>
-            <div className="usercontent-data">
-              <img
-                src="https://i.pinimg.com/474x/15/3a/d9/153ad9ab7acca6191d316d73aaff57cc.jpg"
-                alt=""
-              />
-              <div className="usercontent-datatext">
-                <h2>Bangladesh University of Engineering and Technology</h2>
-                <h3>
-                  Bachelor of Science, Electric and Electronic Engineering
-                </h3>
-                <p>2019-2023</p>
+              <div className="edit-iconbox">
+                <button>
+                  <MdOutlineModeEditOutline />
+                </button>
               </div>
             </div>
             <div className="all-eduinfo">
@@ -133,50 +169,44 @@ const Userinfofilter = () => {
                 : "userinfo-contentbox"
             }
           >
-            <h1>Skill</h1>
+            <div className="skillsub-text">
+              <h1>Skill</h1>
+              <button>
+                <AiOutlinePlus />
+              </button>
+            </div>
             <div className="skill-contentmain">
               <div className="skillcontent-box">
                 <h2>Auditing</h2>
                 <div className="skill-contentinfo-main">
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
+                  <div className="skill-contentsubox">
+                    <div className="skill-contentinfo">
+                      <div className="skill-contentpic">
+                        <img src={auditorimg} alt="" />
+                      </div>
+                      <div className="skillinfo-text">
+                        <p>Auditor at Intertek Bangladesh</p>
+                      </div>
+                    </div>
+                    <div className="edit-iconbox">
+                      <button>
+                        <MdOutlineModeEditOutline />
+                      </button>
                     </div>
                   </div>
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
+                  <div className="skill-contentsubox">
+                    <div className="skill-contentinfo">
+                      <div className="skill-contentpic">
+                        <img src={auditorimg} alt="" />
+                      </div>
+                      <div className="skillinfo-text">
+                        <p>Auditor at Intertek Bangladesh</p>
+                      </div>
                     </div>
-                  </div>
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="skillcontent-box">
-                <h2>Auditing</h2>
-                <div className="skill-contentinfo-main">
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
-                    </div>
-                  </div>
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
-                    </div>
-                  </div>
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
+                    <div className="edit-iconbox">
+                      <button>
+                        <MdOutlineModeEditOutline />
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -184,22 +214,69 @@ const Userinfofilter = () => {
               <div className="skillcontent-box">
                 <h2>Auditing</h2>
                 <div className="skill-contentinfo-main">
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
+                  <div className="skill-contentsubox">
+                    <div className="skill-contentinfo">
+                      <div className="skill-contentpic">
+                        <img src={auditorimg} alt="" />
+                      </div>
+                      <div className="skillinfo-text">
+                        <p>Auditor at Intertek Bangladesh</p>
+                      </div>
+                    </div>
+                    <div className="edit-iconbox">
+                      <button>
+                        <MdOutlineModeEditOutline />
+                      </button>
                     </div>
                   </div>
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
+                  <div className="skill-contentsubox">
+                    <div className="skill-contentinfo">
+                      <div className="skill-contentpic">
+                        <img src={auditorimg} alt="" />
+                      </div>
+                      <div className="skillinfo-text">
+                        <p>Auditor at Intertek Bangladesh</p>
+                      </div>
+                    </div>
+                    <div className="edit-iconbox">
+                      <button>
+                        <MdOutlineModeEditOutline />
+                      </button>
                     </div>
                   </div>
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
+                </div>
+              </div>
+              <div className="skillcontent-box">
+                <h2>Auditing</h2>
+                <div className="skill-contentinfo-main">
+                  <div className="skill-contentsubox">
+                    <div className="skill-contentinfo">
+                      <div className="skill-contentpic">
+                        <img src={auditorimg} alt="" />
+                      </div>
+                      <div className="skillinfo-text">
+                        <p>Auditor at Intertek Bangladesh</p>
+                      </div>
+                    </div>
+                    <div className="edit-iconbox">
+                      <button>
+                        <MdOutlineModeEditOutline />
+                      </button>
+                    </div>
+                  </div>
+                  <div className="skill-contentsubox">
+                    <div className="skill-contentinfo">
+                      <div className="skill-contentpic">
+                        <img src={auditorimg} alt="" />
+                      </div>
+                      <div className="skillinfo-text">
+                        <p>Auditor at Intertek Bangladesh</p>
+                      </div>
+                    </div>
+                    <div className="edit-iconbox">
+                      <button>
+                        <MdOutlineModeEditOutline />
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -219,45 +296,77 @@ const Userinfofilter = () => {
                 : "userinfo-contentbox"
             }
           >
-            <h1>Experiance</h1>
+            <div className="skillsub-text">
+              <h1>Experiance</h1>
+              <button>
+                <AiOutlinePlus />
+              </button>
+            </div>
             <div className="experaince-contentmain">
-              <div className="experiance-contentbox">
-                <img
-                  src="https://1.bp.blogspot.com/-b033o_yMrlA/Xei8X3qBWkI/AAAAAAAAEXs/Jb8PP9bzPD4p4L8y0x0kJsiU9oVCs6GbwCLcBGAsYHQ/s1600/Abdul%2BKadir%2BMollah%2BCity%2BCollege%2BLogo.png"
-                  alt=""
-                />
-                <div className="experiance-contentinfo">
-                  <h2>Auditor</h2>
-                  <p>
-                    Intertek Bangladesh · Full-time Nov 2022 - Present · 1 yr
-                  </p>
-                  <p>Skills: Auditing · Assurance Services</p>
+              <div className="experiancecount-bigbox">
+                <div className="experiance-contentbox">
+                  <div className="exper-boxpic">
+                    <img
+                      src="https://1.bp.blogspot.com/-b033o_yMrlA/Xei8X3qBWkI/AAAAAAAAEXs/Jb8PP9bzPD4p4L8y0x0kJsiU9oVCs6GbwCLcBGAsYHQ/s1600/Abdul%2BKadir%2BMollah%2BCity%2BCollege%2BLogo.png"
+                      alt=""
+                    />
+                  </div>
+                  <div className="experiance-contentinfo">
+                    <h2>Auditor</h2>
+                    <p>
+                      Intertek Bangladesh · Full-time Nov 2022 - Present · 1 yr
+                    </p>
+                    <p>Skills: Auditing · Assurance Services</p>
+                  </div>
+                </div>
+                <div className="edit-iconbox">
+                  <button>
+                    <MdOutlineModeEditOutline />
+                  </button>
                 </div>
               </div>
-              <div className="experiance-contentbox">
-                <img
-                  src="https://1.bp.blogspot.com/-b033o_yMrlA/Xei8X3qBWkI/AAAAAAAAEXs/Jb8PP9bzPD4p4L8y0x0kJsiU9oVCs6GbwCLcBGAsYHQ/s1600/Abdul%2BKadir%2BMollah%2BCity%2BCollege%2BLogo.png"
-                  alt=""
-                />
-                <div className="experiance-contentinfo">
-                  <h2>Auditor</h2>
-                  <p>
-                    Intertek Bangladesh · Full-time Nov 2022 - Present · 1 yr
-                  </p>
-                  <p>Skills: Auditing · Assurance Services</p>
+              <div className="experiancecount-bigbox">
+                <div className="experiance-contentbox">
+                  <div className="exper-boxpic">
+                    <img
+                      src="https://1.bp.blogspot.com/-b033o_yMrlA/Xei8X3qBWkI/AAAAAAAAEXs/Jb8PP9bzPD4p4L8y0x0kJsiU9oVCs6GbwCLcBGAsYHQ/s1600/Abdul%2BKadir%2BMollah%2BCity%2BCollege%2BLogo.png"
+                      alt=""
+                    />
+                  </div>
+                  <div className="experiance-contentinfo">
+                    <h2>Auditor</h2>
+                    <p>
+                      Intertek Bangladesh · Full-time Nov 2022 - Present · 1 yr
+                    </p>
+                    <p>Skills: Auditing · Assurance Services</p>
+                  </div>
+                </div>
+                <div className="edit-iconbox">
+                  <button>
+                    <MdOutlineModeEditOutline />
+                  </button>
                 </div>
               </div>
-              <div className="experiance-contentbox">
-                <img
-                  src="https://1.bp.blogspot.com/-b033o_yMrlA/Xei8X3qBWkI/AAAAAAAAEXs/Jb8PP9bzPD4p4L8y0x0kJsiU9oVCs6GbwCLcBGAsYHQ/s1600/Abdul%2BKadir%2BMollah%2BCity%2BCollege%2BLogo.png"
-                  alt=""
-                />
-                <div className="experiance-contentinfo">
-                  <h2>Auditor</h2>
-                  <p>
-                    Intertek Bangladesh · Full-time Nov 2022 - Present · 1 yr
-                  </p>
-                  <p>Skills: Auditing · Assurance Services</p>
+              <div className="experiancecount-bigbox">
+                <div className="experiance-contentbox">
+                  <div className="exper-boxpic">
+                    <img
+                      src="https://1.bp.blogspot.com/-b033o_yMrlA/Xei8X3qBWkI/AAAAAAAAEXs/Jb8PP9bzPD4p4L8y0x0kJsiU9oVCs6GbwCLcBGAsYHQ/s1600/Abdul%2BKadir%2BMollah%2BCity%2BCollege%2BLogo.png"
+                      alt=""
+                    />
+                  </div>
+                  <div className="experiance-contentinfo">
+                    <h2>Auditor</h2>
+                    <p>
+                      Intertek Bangladesh · Full-time Nov 2022 - Present · 1 yr
+                    </p>
+                    <p>Skills: Auditing · Assurance Services</p>
+                  </div>
+                </div>
+                <div className="edit-iconbox">
+                  <button>
+                    <MdOutlineModeEditOutline />
+                  </button>
                 </div>
               </div>
               <div className="all-eduinfo">
@@ -273,50 +382,44 @@ const Userinfofilter = () => {
                 : "userinfo-contentbox"
             }
           >
-            <h1>Records</h1>
+            <div className="skillsub-text">
+              <h1>Records</h1>
+              <button>
+                <AiOutlinePlus />
+              </button>
+            </div>
             <div className="skill-contentmain">
               <div className="skillcontent-box">
                 <h2>Auditing</h2>
                 <div className="skill-contentinfo-main">
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
+                  <div className="skill-contentsubox">
+                    <div className="skill-contentinfo">
+                      <div className="skill-contentpic">
+                        <img src={auditorimg} alt="" />
+                      </div>
+                      <div className="skillinfo-text">
+                        <p>Auditor at Intertek Bangladesh</p>
+                      </div>
+                    </div>
+                    <div className="edit-iconbox">
+                      <button>
+                        <MdOutlineModeEditOutline />
+                      </button>
                     </div>
                   </div>
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
+                  <div className="skill-contentsubox">
+                    <div className="skill-contentinfo">
+                      <div className="skill-contentpic">
+                        <img src={auditorimg} alt="" />
+                      </div>
+                      <div className="skillinfo-text">
+                        <p>Auditor at Intertek Bangladesh</p>
+                      </div>
                     </div>
-                  </div>
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="skillcontent-box">
-                <h2>Auditing</h2>
-                <div className="skill-contentinfo-main">
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
-                    </div>
-                  </div>
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
-                    </div>
-                  </div>
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
+                    <div className="edit-iconbox">
+                      <button>
+                        <MdOutlineModeEditOutline />
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -324,22 +427,69 @@ const Userinfofilter = () => {
               <div className="skillcontent-box">
                 <h2>Auditing</h2>
                 <div className="skill-contentinfo-main">
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
+                  <div className="skill-contentsubox">
+                    <div className="skill-contentinfo">
+                      <div className="skill-contentpic">
+                        <img src={auditorimg} alt="" />
+                      </div>
+                      <div className="skillinfo-text">
+                        <p>Auditor at Intertek Bangladesh</p>
+                      </div>
+                    </div>
+                    <div className="edit-iconbox">
+                      <button>
+                        <MdOutlineModeEditOutline />
+                      </button>
                     </div>
                   </div>
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
+                  <div className="skill-contentsubox">
+                    <div className="skill-contentinfo">
+                      <div className="skill-contentpic">
+                        <img src={auditorimg} alt="" />
+                      </div>
+                      <div className="skillinfo-text">
+                        <p>Auditor at Intertek Bangladesh</p>
+                      </div>
+                    </div>
+                    <div className="edit-iconbox">
+                      <button>
+                        <MdOutlineModeEditOutline />
+                      </button>
                     </div>
                   </div>
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
+                </div>
+              </div>
+              <div className="skillcontent-box">
+                <h2>Auditing</h2>
+                <div className="skill-contentinfo-main">
+                  <div className="skill-contentsubox">
+                    <div className="skill-contentinfo">
+                      <div className="skill-contentpic">
+                        <img src={auditorimg} alt="" />
+                      </div>
+                      <div className="skillinfo-text">
+                        <p>Auditor at Intertek Bangladesh</p>
+                      </div>
+                    </div>
+                    <div className="edit-iconbox">
+                      <button>
+                        <MdOutlineModeEditOutline />
+                      </button>
+                    </div>
+                  </div>
+                  <div className="skill-contentsubox">
+                    <div className="skill-contentinfo">
+                      <div className="skill-contentpic">
+                        <img src={auditorimg} alt="" />
+                      </div>
+                      <div className="skillinfo-text">
+                        <p>Auditor at Intertek Bangladesh</p>
+                      </div>
+                    </div>
+                    <div className="edit-iconbox">
+                      <button>
+                        <MdOutlineModeEditOutline />
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -359,50 +509,44 @@ const Userinfofilter = () => {
                 : "userinfo-contentbox"
             }
           >
-            <h1>Interest</h1>
+            <div className="skillsub-text">
+              <h1>Interest</h1>
+              <button>
+                <AiOutlinePlus />
+              </button>
+            </div>
             <div className="skill-contentmain">
               <div className="skillcontent-box">
                 <h2>Auditing</h2>
                 <div className="skill-contentinfo-main">
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
+                  <div className="skill-contentsubox">
+                    <div className="skill-contentinfo">
+                      <div className="skill-contentpic">
+                        <img src={auditorimg} alt="" />
+                      </div>
+                      <div className="skillinfo-text">
+                        <p>Auditor at Intertek Bangladesh</p>
+                      </div>
+                    </div>
+                    <div className="edit-iconbox">
+                      <button>
+                        <MdOutlineModeEditOutline />
+                      </button>
                     </div>
                   </div>
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
+                  <div className="skill-contentsubox">
+                    <div className="skill-contentinfo">
+                      <div className="skill-contentpic">
+                        <img src={auditorimg} alt="" />
+                      </div>
+                      <div className="skillinfo-text">
+                        <p>Auditor at Intertek Bangladesh</p>
+                      </div>
                     </div>
-                  </div>
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="skillcontent-box">
-                <h2>Auditing</h2>
-                <div className="skill-contentinfo-main">
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
-                    </div>
-                  </div>
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
-                    </div>
-                  </div>
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
+                    <div className="edit-iconbox">
+                      <button>
+                        <MdOutlineModeEditOutline />
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -410,22 +554,69 @@ const Userinfofilter = () => {
               <div className="skillcontent-box">
                 <h2>Auditing</h2>
                 <div className="skill-contentinfo-main">
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
+                  <div className="skill-contentsubox">
+                    <div className="skill-contentinfo">
+                      <div className="skill-contentpic">
+                        <img src={auditorimg} alt="" />
+                      </div>
+                      <div className="skillinfo-text">
+                        <p>Auditor at Intertek Bangladesh</p>
+                      </div>
+                    </div>
+                    <div className="edit-iconbox">
+                      <button>
+                        <MdOutlineModeEditOutline />
+                      </button>
                     </div>
                   </div>
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
+                  <div className="skill-contentsubox">
+                    <div className="skill-contentinfo">
+                      <div className="skill-contentpic">
+                        <img src={auditorimg} alt="" />
+                      </div>
+                      <div className="skillinfo-text">
+                        <p>Auditor at Intertek Bangladesh</p>
+                      </div>
+                    </div>
+                    <div className="edit-iconbox">
+                      <button>
+                        <MdOutlineModeEditOutline />
+                      </button>
                     </div>
                   </div>
-                  <div className="skill-contentinfo">
-                    <img src={auditorimg} alt="" />
-                    <div className="skillinfo-text">
-                      <p>Auditor at Intertek Bangladesh</p>
+                </div>
+              </div>
+              <div className="skillcontent-box">
+                <h2>Auditing</h2>
+                <div className="skill-contentinfo-main">
+                  <div className="skill-contentsubox">
+                    <div className="skill-contentinfo">
+                      <div className="skill-contentpic">
+                        <img src={auditorimg} alt="" />
+                      </div>
+                      <div className="skillinfo-text">
+                        <p>Auditor at Intertek Bangladesh</p>
+                      </div>
+                    </div>
+                    <div className="edit-iconbox">
+                      <button>
+                        <MdOutlineModeEditOutline />
+                      </button>
+                    </div>
+                  </div>
+                  <div className="skill-contentsubox">
+                    <div className="skill-contentinfo">
+                      <div className="skill-contentpic">
+                        <img src={auditorimg} alt="" />
+                      </div>
+                      <div className="skillinfo-text">
+                        <p>Auditor at Intertek Bangladesh</p>
+                      </div>
+                    </div>
+                    <div className="edit-iconbox">
+                      <button>
+                        <MdOutlineModeEditOutline />
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -445,7 +636,12 @@ const Userinfofilter = () => {
                 : "userinfo-contentbox"
             }
           >
-            <h1>About</h1>
+            <div className="skillsub-text">
+              <h1>About</h1>
+              <button>
+                <MdOutlineModeEditOutline />
+              </button>
+            </div>
             <div className="about-textinfo">
               <p>
                 Hi, I am Jameabir, a professional web designer & WordPress

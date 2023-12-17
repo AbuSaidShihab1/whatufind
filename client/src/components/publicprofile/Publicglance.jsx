@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/dashboard/Dashglance.css";
-const Dashglance = () => {
+const Publicglance = () => {
   return (
     <div className="dashglance-main">
       {/* ------------------------dashboard-glance-section------------------ */}
@@ -204,4 +204,4 @@ const Dashglance = () => {
   );
 };
 
-export default Dashglance;
+export default Publicglance;

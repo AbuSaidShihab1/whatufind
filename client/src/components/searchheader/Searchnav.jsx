@@ -12,9 +12,7 @@ const Searchnav = () => {
           <li>
             <NavLink>Jobs</NavLink>
           </li>
-          <li>
-            <NavLink>Experts</NavLink>
-          </li>
+
           <li>
             <NavLink>Training</NavLink>
           </li>
@@ -24,9 +22,7 @@ const Searchnav = () => {
           <li>
             <NavLink>People</NavLink>
           </li>
-          <li>
-            <NavLink>Q&A</NavLink>
-          </li>
+
           <li>
             <button>Earn Money</button>
           </li>

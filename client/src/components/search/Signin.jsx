@@ -3,9 +3,10 @@ import Logo from "../../assets/logo.png";
 import "../../styles/search/Join.css";
 import googleimg from "../../assets/google.png";
 import facebookimg from "../../assets/facebook.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Searchfooter from "../footer/Searchfooter";
 const Signin = () => {
+  const navigate = useNavigate();
   return (
     <div className="join-main">
       <header>
@@ -50,7 +51,13 @@ const Signin = () => {
                 </div>
               </div>
 
-              <button>Sign In</button>
+              <button
+                onClick={() => {
+                  navigate("/home");
+                }}
+              >
+                Sign In
+              </button>
             </form>
             {/* --------------form-------------- */}
             <div className="other-option">

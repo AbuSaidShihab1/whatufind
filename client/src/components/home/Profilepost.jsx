@@ -34,8 +34,8 @@ const Profilepost = () => {
           <div className="completed-text">
             <p>Review</p>
           </div>
-          <div className="complete-parcent">
-            <div className="sub-completeparcent">
+          <div className="complete-parcent" style={{ background: "red" }}>
+            <div className="sub-completeparcent" id="subreview">
               <p>75%</p>
             </div>
           </div>

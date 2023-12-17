@@ -7,6 +7,7 @@
   align-items: center;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  gap: 50px;
 }
 .homesub-header ul li a:visited {
   color: black;
@@ -17,7 +18,10 @@
   justify-content: start;
   align-items: center;
   gap: 30px;
-  width: 50%;
+  width: 90%;
+}
+.homeheader-left .logo {
+  cursor: pointer;
 }
 .home-search {
   display: flex;
@@ -27,6 +31,8 @@
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   width: 100%;
   height: 50px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 .homesearch-box {
   width: 100%;
@@ -54,7 +60,7 @@
   background: none;
 }
 .home-search button {
-  width: 20%;
+  width: 15%;
   height: 100%;
   background-color: var(--maincolor);
   font-size: 17px;
@@ -62,6 +68,10 @@
   border: none;
   cursor: pointer;
   outline: none;
+  pad: 10px;
+}
+.home-profilepic {
+  cursor: pointer;
 }
 .home-profilepic img {
   width: 50px;
@@ -81,6 +91,7 @@ nav {
 
 .link-icon a {
   text-decoration: none;
+  color: black;
 }
 .link-icon svg {
   color: var(--maincolor);

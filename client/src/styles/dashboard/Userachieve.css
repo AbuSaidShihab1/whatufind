@@ -10,6 +10,73 @@
   padding: 15px;
   display: none;
 }
+.userachieve-reviews {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0px;
+  flex-direction: column;
+}
+.user-getreviewcount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.user-getreviewcount h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.getreview-star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.getreview-star p {
+  font-weight: bold;
+  font-size: 18px;
+}
+.getreviewstar-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.user-reviewbar-main {
+  margin-top: 10px;
+}
+.userreview-barbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+.userreview-barbox h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.review-progressbarbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.review-progressbar {
+  width: 200px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+.review-sbprogress {
+  width: 70%;
+  height: 100%;
+  background-color: var(--maincolor);
+}
 .userachieve-box {
   display: flex;
   justify-content: start;

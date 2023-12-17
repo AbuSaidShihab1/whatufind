@@ -54,7 +54,7 @@ const Searchpage = () => {
                   id="inpplaceholder"
                 />
               </div>
-              <button>Search</button>
+              <button>Find</button>
             </div>
           </div>
         </div>

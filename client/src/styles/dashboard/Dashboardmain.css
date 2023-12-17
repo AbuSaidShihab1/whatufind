@@ -1,13 +1,17 @@
 .dashboard-section {
   width: 100%;
   height: auto;
-  padding: 40px 50px;
 }
 .dashboardtop-section {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 50px;
+  border-bottom: 1px solid var(--paracolor);
+  padding-bottom: 20px;
+  padding: 40px 50px;
+}
+.dashboardbottom-section {
+  padding: 20px 50px;
 }
 .dashboard-profile {
   padding: 15px;
@@ -20,32 +24,32 @@
 }
 .user-status {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 10px;
+  left: 10px;
 }
 .user-status p {
   padding: 8px 20px;
   border-radius: 25px;
-  background-color: #2ecc71;
+  background-color: var(--completecolor);
   color: white;
-  font-size: 15px;
+  font-size: 13px;
 }
-.dashboard-profile img {
-  width: 150px;
-  height: 150px;
+.mainprofile-pic img {
+  width: 233px;
+  height: 233px;
   border-radius: 50%;
 }
 .dahuserprofile-info {
   margin-top: 15px;
 }
 .dahuserprofile-info h1 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
 }
 .dahuserprofile-info h2 {
   font-weight: 600;
   margin-top: 2px;
-  font-size: 20px;
+  font-size: 18px;
 }
 .dahuserprofile-info p {
   margin-top: 2px;
@@ -100,7 +104,7 @@
   width: 75%;
   height: 25px;
   border-radius: 10px 0px 0px 10px;
-  background-color: #2ecc71;
+  background-color: var(--completecolor);
   display: flex;
   justify-content: end;
   padding-right: 10px;
@@ -153,8 +157,62 @@
 .dashboard-servicesection {
   width: 70%;
   height: auto;
+}
+.dashboardtop-section {
+}
+.dashboard-searchservicefield {
+  padding: 10px;
+  width: 100%;
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+}
+.prifilepic-service img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.serviceadd-filed {
+  width: 100%;
+  height: 55px;
+  padding: 5px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--paracolor);
+}
+.serviceadd-filed input {
+  width: 92%;
+  height: 100%;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+}
+.serviceadd-filed button {
+  width: 8%;
+  height: 100%;
+  border-radius: 0px 25px 25px 0px;
+  border: none;
+  background-color: var(--maincolor);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.dashboard-servicepart2 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  height: auto;
   padding: 15px;
 }
 .dashboard-filterbtn {
@@ -181,10 +239,18 @@
 }
 .dashboardproduct-box img {
   width: 100%;
-  height: 300px;
+  height: 250px;
 }
 .productbox-allinfo {
   padding: 10px;
+}
+.dashboard-filterbtn select {
+  padding: 10px 15px;
+  border: 1px solid var(--paracolor);
+  border-radius: 5px;
+  font-size: 15px;
+  color: var(--paracolor);
+  cursor: pointer;
 }
 .productuploader-info {
   display: flex;
