@@ -5,10 +5,11 @@ import googleimg from "../../assets/google.png";
 import facebookimg from "../../assets/facebook.png";
 import { Link } from "react-router-dom";
 import Searchfooter from "../footer/Searchfooter";
+import Joinfooter from "../footer/Joinfooter";
 const Searchjoin = () => {
   return (
     <div className="join-main">
-      <header>
+      <header style={{ boxShadow: "none" }}>
         <div className="logo">
           <Link to="/">
             <img src={Logo} alt="" />
@@ -51,8 +52,9 @@ const Searchjoin = () => {
                 <label htmlFor="remember">Remember Me</label>
               </div>
               <p>
-                By clicking Agree and join, you agree to the whatufind User
-                Agreement, privacy policy, and cookie policy.
+                By clicking Agree and join, you agree to the whatufind
+                <span>User Agreement</span>, <span>privacy policy</span>, and
+                <span>cookie policy</span>.
               </p>
               <button>Agree & Join</button>
             </form>
@@ -76,13 +78,14 @@ const Searchjoin = () => {
           </div>
           <div className="signin-account">
             <p>
-              Already have an account ? <Link to="/signin">Sign in</Link>
+              Already on <span style={{ fontWeight: "bold" }}>whatufind</span>?
+              <Link to="/signin">Sign in</Link>
             </p>
           </div>
         </div>
       </div>
       {/* -------------join form---------------- */}
-      <Searchfooter />
+      <Joinfooter />
     </div>
   );
 };

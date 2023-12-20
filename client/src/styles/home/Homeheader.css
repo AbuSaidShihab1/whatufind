@@ -12,7 +12,6 @@
 .homesub-header ul li a:visited {
   color: black;
 }
-
 .homeheader-left {
   display: flex;
   justify-content: start;
@@ -54,7 +53,7 @@
   width: 90%;
   height: 100%;
   padding: 0px 5px;
-  font-size: 17px;
+  font-size: 20px;
   border: none;
   outline: none;
   background: none;
@@ -63,7 +62,8 @@
   width: 15%;
   height: 100%;
   background-color: var(--maincolor);
-  font-size: 17px;
+  font-size: 20px;
+  font-weight: bold;
   color: white;
   border: none;
   cursor: pointer;
@@ -74,8 +74,8 @@
   cursor: pointer;
 }
 .home-profilepic img {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
 }
 /* ----------------------nav---------------------- */
@@ -92,6 +92,7 @@ nav {
 .link-icon a {
   text-decoration: none;
   color: black;
+  font-size: 16px;
 }
 .link-icon svg {
   color: var(--maincolor);

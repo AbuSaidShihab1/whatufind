@@ -8,6 +8,7 @@ import Dashboard from "./pages/Dashboard";
 import Notificationpage from "./pages/Notificationpage";
 import Message from "./pages/Message";
 import Profile from "./pages/Profile";
+import Skilladd from "./pages/Skilladd";
 const App = () => {
   return (
     <Router>
@@ -20,6 +21,7 @@ const App = () => {
         <Route exact path="/notification" element={<Notificationpage />} />
         <Route exact path="/message" element={<Message />} />
         <Route exact path="/public-profile" element={<Profile />} />
+        <Route exact path="/skill-add" element={<Skilladd />} />
       </Routes>
     </Router>
   );

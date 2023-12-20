@@ -14,6 +14,7 @@
 .userpost-filter h3 {
   border-right: 1px solid black;
   padding-right: 10px;
+  font-size: 15px;
 }
 .userpost-filter ul {
   display: flex;
@@ -28,6 +29,7 @@
   font-size: var(--btn-fontsize);
   cursor: pointer;
   font-weight: 500;
+  font-size: 15px;
 }
 /* -------------userpostbox--------------------- */
 .userpost-show {
@@ -55,8 +57,8 @@
   gap: 15px;
 }
 .userprofile-info img {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   border-radius: 50px;
 }
 .user-postmethod {
@@ -79,9 +81,13 @@
   width: 100%;
 }
 .userposttext p {
-  font-size: 17px;
+  font-size: 15px;
   line-height: 25px;
+  color: black;
+}
+.userposttext p span {
   color: #65676b;
+  margin-left: 3px;
 }
 .userpostpic {
   width: 100%;
@@ -101,7 +107,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #65676b;
+  border-bottom: 1px solid #6c6c6c;
 }
 .userpost-commentcount {
   display: flex;
@@ -121,6 +127,7 @@
 }
 .userpost-count p {
   color: #65676b;
+  font-size: 12px;
 }
 .userpost-optionbox i {
   display: flex;
@@ -129,6 +136,9 @@
   margin-bottom: 5px;
 }
 .userpost-optionbox i svg {
-  font-size: 25px;
-  color: #65676b;
+  font-size: 22px;
+  color: #6c6c6c;
+}
+.userpost-optionbox p {
+  font-size: 15px;
 }

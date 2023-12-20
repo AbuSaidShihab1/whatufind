@@ -5,8 +5,10 @@ import { IoMdArrowRoundForward } from "react-icons/io";
 import { MdOutlineModeEditOutline } from "react-icons/md";
 import Userachieve from "./Userachieve";
 import { AiOutlinePlus } from "react-icons/ai";
+import { useNavigate } from "react-router-dom";
 const Userinfofilter = () => {
   const [activetab, setactivetab] = useState(1);
+  const navigate = useNavigate();
   //   toggletab function
   function toggletab(index) {
     setactivetab(index);
@@ -85,7 +87,11 @@ const Userinfofilter = () => {
           >
             <div className="skillsub-text">
               <h1>Education</h1>
-              <button>
+              <button
+                onClick={() => {
+                  navigate("/skill-add");
+                }}
+              >
                 <AiOutlinePlus />
               </button>
             </div>

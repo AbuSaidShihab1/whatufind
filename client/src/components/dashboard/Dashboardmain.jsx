@@ -9,6 +9,7 @@ import { GrMenu } from "react-icons/gr";
 import Dashboardfilter from "./Dashboardfilter";
 import "../../styles/dashboard/Modal.css";
 import { AiOutlineClose } from "react-icons/ai";
+import { IoFilterSharp } from "react-icons/io5";
 import { AiOutlinePicture } from "react-icons/ai";
 import { FaVideo } from "react-icons/fa";
 import { IoPricetag } from "react-icons/io5";
@@ -63,6 +64,9 @@ const Dashboardmain = () => {
             <div className="varified-bar">
               <div className="varified-subbar">75%</div>
             </div>
+          </div>
+          <div className="joined-text">
+            <p>Joined 2023 </p>
           </div>
           <div className="profile-contactinfo">
             <div className="profile-contactinfobox">
@@ -508,11 +512,9 @@ const Dashboardmain = () => {
           </div>
           <div className="dashboard-servicepart2">
             <div className="dashboard-filterbtn">
-              <select name="filter">
-                <option value="">Services</option>
-                <option value="">Products</option>
-                <option value="">Buy</option>
-              </select>
+              <button>
+                <IoFilterSharp />
+              </button>
             </div>
             <div className="dashboard-allproducts">
               <div className="dashboardproduct-box">
@@ -646,6 +648,8 @@ const Dashboardmain = () => {
       <div className="dashboardbottom-section">
         <Dashboardfilter />
       </div>
+      {/* footer */}
+      <Searchfooter />
     </div>
   );
 };

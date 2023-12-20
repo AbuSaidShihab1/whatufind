@@ -1,54 +1,56 @@
-.postfield-main{
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding: 10px;
+.postfield-main {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px;
 }
-.profile-pic{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    padding: 2px;
-    background-color: var(--maincolor);
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 2px;
+  background-color: var(--maincolor);
 }
-.profile-pic img{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
-.post-input{
-    width: 80%;
-    height: 55px;
-    border: 1px solid #bdc3c7;
-    border-radius: 25px;
-    overflow: hidden;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.post-input {
+  width: 90%;
+  height: 50px;
+  border: 1px solid #bdc3c7;
+  border-radius: 25px;
+  overflow: hidden;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.post-input input{
-    width: 85%;
-    height: 100%;
-    font-size: 17px;
-    padding:0px 15px;
-    border: none;
-    outline: none;
-    letter-spacing: 1px;
-    border-radius: 25px 0px 0px 25px;
+.post-input input {
+  width: 85%;
+  height: 100%;
+  font-size: 17px;
+  padding: 0px 15px;
+  border: none;
+  outline: none;
+  letter-spacing: 1px;
+  border-radius: 25px 0px 0px 25px;
 }
-.post-input button{
-    width: 15%;
-    height: 100%;
-    border-radius: 0px 25px 25px 0px;
-    background-color: var(--maincolor);
-    border: none;
-    color: white;
-    font-size: var(--btn-fontsize);
-    cursor: pointer;
+.post-input button {
+  width: 15%;
+  height: 100%;
+  border-radius: 0px 25px 25px 0px;
+  background-color: var(--maincolor);
+  border: none;
+  color: white;
+  font-size: var(--btn-fontsize);
+  cursor: pointer;
+  font-size: 12px;
 }

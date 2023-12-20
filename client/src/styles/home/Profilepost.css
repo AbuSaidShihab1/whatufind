@@ -28,7 +28,7 @@
 }
 /* --------------------postbox1------------------- */
 .post-sectionbox1 h1 {
-  font-size: 20px;
+  font-size: 15px;
   margin-bottom: 15px;
   font-weight: 600;
 }
@@ -41,6 +41,9 @@
 }
 .completed-text {
   width: 25%;
+}
+.completed-text p {
+  font-size: 12px;
 }
 .complete-parcent {
   width: 65%;
@@ -61,7 +64,7 @@
 }
 .sub-completeparcent p {
   color: black;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 .complete-star {
@@ -82,7 +85,7 @@
   border-bottom: 1px solid #bdc3c7;
 }
 .post-sectiontext h1 {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
 }
 .recommand-tag {

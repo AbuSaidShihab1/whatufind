@@ -230,7 +230,7 @@ const Userpost = () => {
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Sapiente aliquam ex consectetur iure molestiae sint dolor
-                possimus doloribus similique deleniti!
+                possimus doloribus similique deleniti! <span>See more...</span>
               </p>
             </div>
             <div className="userpostpic">

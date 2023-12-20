@@ -26,7 +26,7 @@
   gap: 20px;
 }
 .user-getreviewcount h2 {
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 500;
 }
 .getreview-star {
@@ -37,7 +37,7 @@
 }
 .getreview-star p {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 12px;
 }
 .getreviewstar-box {
   display: flex;
@@ -56,7 +56,7 @@
   margin-top: 10px;
 }
 .userreview-barbox h2 {
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 600;
 }
 .review-progressbarbox {
@@ -77,6 +77,9 @@
   height: 100%;
   background-color: var(--maincolor);
 }
+.review-progressbarbox p {
+  font-size: 12px;
+}
 .userachieve-box {
   display: flex;
   justify-content: start;
@@ -85,13 +88,13 @@
   border-bottom: 1px solid var(--paracolor);
 }
 .userachieve-box img {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
 }
 .userreview-text h2 {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: bold;
   margin-bottom: 5px;
 }
 .reviewgiven-country {
@@ -102,9 +105,13 @@
   margin-bottom: 10px;
 }
 .reviewgiven-country img {
-  width: 30px;
-  height: 20px;
-  border-radius: 5px;
+  width: 20px;
+  height: 15px;
+  border-radius: 2px;
+}
+.reviewgiven-country h3 {
+  font-size: 15px;
+  font-weight: 400;
 }
 .review-starcount {
   display: flex;
@@ -120,15 +127,15 @@
   padding-right: 10px;
 }
 .reviewstar svg {
-  font-size: 25px;
+  font-size: 20px;
 }
 .review-starcount h4 {
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 500;
 }
 .userreview-text p {
-  font-size: 17px;
-  line-height: 25px;
+  font-size: 12px;
+  line-height: 20px;
   margin-bottom: 10px;
 }
 .parchased-infobox {
@@ -137,9 +144,12 @@
   justify-content: start;
   align-items: center;
 }
+.parchased-infobox h3 {
+  font-size: 12px;
+}
 .parchased-infobox a {
   color: var(--paracolor);
-  font-size: 17px;
+  font-size: 12px;
 }
 .addreview {
   padding: 15px 10px;
@@ -148,9 +158,9 @@
   align-items: center;
 }
 .addreview button {
-  padding: 15px 25px;
-  font-size: 17px;
-  border-radius: 25px;
+  padding: 15px 20px;
+  font-size: 15px;
+  border-radius: 10px;
   border: 1px solid var(--paracolor);
   background: none;
   font-family: "Open Sans", sans-serif;

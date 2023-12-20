@@ -16,16 +16,17 @@
   list-style: none;
 }
 .homesub-header ul li a {
-  padding: 10px 15px;
+  padding: 10px 18px;
   background-color: whitesmoke;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   text-decoration: none;
   color: black;
+  font-size: 15px;
 }
 .sub-btn button {
-  padding: 10px 25px;
-  font-size: 16px;
+  padding: 10px 20px;
+  font-size: 15px;
   border-radius: 25px;
   border: none;
   background-color: var(--maincolor);

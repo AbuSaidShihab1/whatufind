@@ -5,11 +5,12 @@ import googleimg from "../../assets/google.png";
 import facebookimg from "../../assets/facebook.png";
 import { Link, useNavigate } from "react-router-dom";
 import Searchfooter from "../footer/Searchfooter";
+import Joinfooter from "../footer/Joinfooter";
 const Signin = () => {
   const navigate = useNavigate();
   return (
     <div className="join-main">
-      <header>
+      <header style={{ boxShadow: "none" }}>
         <div className="logo">
           <Link to="/">
             <img src={Logo} alt="" />
@@ -23,7 +24,13 @@ const Signin = () => {
           <div className="joinform-all">
             {/* --------------form-------------- */}
             <form action="">
-              <h1 style={{ textAlign: "left", marginBottom: "15px" }}>
+              <h1
+                style={{
+                  textAlign: "left",
+                  marginBottom: "15px",
+                  fontSize: "25px",
+                }}
+              >
                 Sign In
               </h1>
               <input type="text" placeholder="Email" name="email" />
@@ -68,7 +75,7 @@ const Signin = () => {
               </div>
               <div className="signup-option">
                 <img src={googleimg} alt="google" />
-                <p>Join in with gogole</p>
+                <p>Join in with google</p>
               </div>
               <div className="signup-option">
                 <img src={facebookimg} alt="google" />
@@ -79,13 +86,14 @@ const Signin = () => {
           </div>
           <div className="signin-account">
             <p>
-              New in whatufind? <Link to="/join">Join now</Link>
+              New in <span style={{ fontWeight: "bold" }}>whatufind</span>?{" "}
+              <Link to="/join">Join now</Link>
             </p>
           </div>
         </div>
       </div>
       {/* -------------join form---------------- */}
-      <Searchfooter />
+      <Joinfooter />
     </div>
   );
 };
